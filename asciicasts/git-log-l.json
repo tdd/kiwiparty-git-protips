@@ -1,0 +1,670 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 24,
+  "duration": 33.426244,
+  "command": "/bin/bash -l",
+  "title": "Showcasing git log -L",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.763164,
+      "\u001b[?25h"
+    ],
+    [
+      0.000323,
+      "\u001b[0G"
+    ],
+    [
+      0.000031,
+      "\u001b[K"
+    ],
+    [
+      0.000287,
+      "\u001b[?25h\u001b[0G\u001b[K"
+    ],
+    [
+      0.502974,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000155,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.132085,
+      "\u001b[?1034h"
+    ],
+    [
+      0.000020,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.470231,
+      "g"
+    ],
+    [
+      0.089785,
+      "i"
+    ],
+    [
+      0.090302,
+      "t"
+    ],
+    [
+      0.112371,
+      " "
+    ],
+    [
+      0.067409,
+      "l"
+    ],
+    [
+      0.134957,
+      "o"
+    ],
+    [
+      0.045038,
+      "g"
+    ],
+    [
+      0.090088,
+      " "
+    ],
+    [
+      0.134993,
+      "-"
+    ],
+    [
+      0.168727,
+      "1"
+    ],
+    [
+      0.877367,
+      " "
+    ],
+    [
+      0.236947,
+      "k"
+    ],
+    [
+      0.505475,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.202524,
+      "-"
+    ],
+    [
+      0.225002,
+      "p"
+    ],
+    [
+      0.157437,
+      " "
+    ],
+    [
+      0.202519,
+      "k"
+    ],
+    [
+      0.258755,
+      "i"
+    ],
+    [
+      0.130007,
+      "wi.css"
+    ],
+    [
+      0.275226,
+      "\r\n"
+    ],
+    [
+      0.015464,
+      "\u001b[33mcommit 2c3a0de\u001b[m\r\n"
+    ],
+    [
+      0.001698,
+      "Author: Christophe Porteneuve \u003ctdd@tddsworld.com\u003e\r\nDate:   Tue May 31 16:19:10 2016 +0200\r\n\r\n    style(home): make titles blue\r\n"
+    ],
+    [
+      0.000008,
+      "\r\n"
+    ],
+    [
+      0.000420,
+      "\u001b[1;33mdiff --git a/kiwi.css b/kiwi.css\u001b[m\r\n\u001b[1;33mindex 2512411..f398ec2 100644\u001b[m\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[1;33m--- a/kiwi.css\u001b[m\r\n\u001b[1;33m+++ b/kiwi.css\u001b[m\r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[1;35m@@ -8,7 +8,7 @@\u001b[m \u001b[mbody {\u001b[m\r\n \u001b[m\r\n h1 {\u001b[m\r\n   font-size: 2em;\u001b[m\r\n\u001b[31m-  color: green;\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m  color: blue;\u001b[m\r\n"
+    ],
+    [
+      0.000010,
+      " }\u001b[m\r\n \u001b[m\r\n p {\u001b[m\r\n"
+    ],
+    [
+      0.000866,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000145,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.140204,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      2.000000,
+      "g"
+    ],
+    [
+      0.089818,
+      "i"
+    ],
+    [
+      0.102022,
+      "t"
+    ],
+    [
+      0.111705,
+      " "
+    ],
+    [
+      0.056183,
+      "l"
+    ],
+    [
+      0.146171,
+      "o"
+    ],
+    [
+      0.056563,
+      "g"
+    ],
+    [
+      0.134635,
+      " "
+    ],
+    [
+      0.124021,
+      "-"
+    ],
+    [
+      0.179754,
+      "1"
+    ],
+    [
+      0.135027,
+      " "
+    ],
+    [
+      0.135366,
+      "-"
+    ],
+    [
+      0.258393,
+      "L"
+    ],
+    [
+      0.956217,
+      " "
+    ],
+    [
+      0.146340,
+      "b"
+    ],
+    [
+      0.337503,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.213672,
+      ":"
+    ],
+    [
+      0.202501,
+      "b"
+    ],
+    [
+      0.102022,
+      "o"
+    ],
+    [
+      0.156798,
+      "d"
+    ],
+    [
+      0.067391,
+      "y"
+    ],
+    [
+      0.213810,
+      ":"
+    ],
+    [
+      0.540168,
+      "k"
+    ],
+    [
+      0.168684,
+      "i"
+    ],
+    [
+      0.083525,
+      "wi.css"
+    ],
+    [
+      0.411225,
+      "\r\n"
+    ],
+    [
+      0.017397,
+      "\u001b[33mcommit 99e9361\u001b[m\r\n"
+    ],
+    [
+      0.000485,
+      "Author: Christophe Porteneuve \u003ctdd@tddsworld.com\u003e\r\nDate:   Tue May 31 16:16:48 2016 +0200\r\n\r\n"
+    ],
+    [
+      0.000009,
+      "    style(home): Ensure Black on White\r\n\r\n\u001b[1;33mdiff --git a/kiwi.css b/kiwi.css\u001b[m\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[1;33m--- a/kiwi.css\u001b[m\r\n\u001b[1;33m+++ b/kiwi.css\u001b[m\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[1;35m@@ -1,6 +1,8 @@\u001b[m\r\n body {\u001b[m\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[32m+  background: white;\u001b[m\r\n\u001b[32m+  color: black;\u001b[m\r\n   font-size: 16px;\u001b[m\r\n   line-height: 1.4em;\u001b[m\r\n   font-family: Georgia, Garamond, serif;\u001b[m\r\n }\u001b[m\r\n \u001b[m\r\n"
+    ],
+    [
+      0.001340,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.129266,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      2.000000,
+      "g"
+    ],
+    [
+      0.056255,
+      "i"
+    ],
+    [
+      0.123784,
+      "t"
+    ],
+    [
+      0.089829,
+      " "
+    ],
+    [
+      0.044922,
+      "l"
+    ],
+    [
+      0.146246,
+      "o"
+    ],
+    [
+      0.067756,
+      "g"
+    ],
+    [
+      0.055988,
+      " "
+    ],
+    [
+      0.168779,
+      "-"
+    ],
+    [
+      0.224992,
+      "1"
+    ],
+    [
+      0.247495,
+      " "
+    ],
+    [
+      0.247503,
+      "i"
+    ],
+    [
+      0.484035,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.179929,
+      "-"
+    ],
+    [
+      0.202360,
+      "p"
+    ],
+    [
+      0.180012,
+      " "
+    ],
+    [
+      0.123676,
+      "i"
+    ],
+    [
+      0.056377,
+      "n"
+    ],
+    [
+      0.141370,
+      "dex.html"
+    ],
+    [
+      0.454651,
+      "\r\n"
+    ],
+    [
+      0.017732,
+      "\u001b[33mcommit 88b2713\u001b[m\r\n"
+    ],
+    [
+      0.000707,
+      "Author: Christophe Porteneuve \u003ctdd@tddsworld.com\u003e\r\nDate:   Tue May 31 16:20:38 2016 +0200\r\n\r\n    copy(home): different garbage\r\n\r\n"
+    ],
+    [
+      0.002305,
+      "\u001b[1;33mdiff --git a/index.html b/index.html\u001b[m\r\n\u001b[1;33mindex 53d2875..ba867c8 100644\u001b[m\r\n\u001b[1;33m--- a/index.html\u001b[m\r\n\u001b[1;33m+++ b/index.html\u001b[m\r\n\u001b[1;35m@@ -8,7 +8,7 @@\u001b[m\r\n \u003cbody\u003e\u001b[m\r\n   \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n \u001b[m\r\n\u001b[31m-  \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m  \u003cp\u003eSint dolor inventore, reiciendis nam delectus qui porro quidem.\u003c/p\u003e\u001b[m\r\n \u001b[m\r\n   \u003cfooter\u003e© 2016 Delicious Kiwi Party.\u003c/footer\u003e\u001b[m\r\n \u003c/body\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000413,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.123287,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.363424,
+      "g"
+    ],
+    [
+      0.101358,
+      "i"
+    ],
+    [
+      0.100959,
+      "t"
+    ],
+    [
+      0.078674,
+      " "
+    ],
+    [
+      0.067669,
+      "l"
+    ],
+    [
+      0.157381,
+      "o"
+    ],
+    [
+      0.056461,
+      "g"
+    ],
+    [
+      0.067202,
+      " "
+    ],
+    [
+      0.157700,
+      "-"
+    ],
+    [
+      0.956094,
+      "\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.090382,
+      "\u001b[K"
+    ],
+    [
+      0.393406,
+      "g"
+    ],
+    [
+      0.191201,
+      "r"
+    ],
+    [
+      0.067808,
+      "e"
+    ],
+    [
+      0.078415,
+      "p"
+    ],
+    [
+      0.045308,
+      " "
+    ],
+    [
+      0.584784,
+      "-"
+    ],
+    [
+      0.236196,
+      "n"
+    ],
+    [
+      0.393766,
+      " "
+    ],
+    [
+      0.169252,
+      "."
+    ],
+    [
+      0.539718,
+      " "
+    ],
+    [
+      0.382636,
+      "i"
+    ],
+    [
+      0.078473,
+      "n"
+    ],
+    [
+      0.066680,
+      "dex.html "
+    ],
+    [
+      0.349610,
+      "\r\n"
+    ],
+    [
+      0.003882,
+      "1:\u003c!doctype html\u003e\r\n2:\u003chtml lang=\"fr\"\u003e\r\n"
+    ],
+    [
+      0.000014,
+      "3:\u003chead\u003e\r\n4:  \u003cmeta charset=\"utf-8\"\u003e\r\n5:  \u003ctitle\u003eKywy Party Git Playground\u003c/title\u003e\r\n6:  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\r\n7:\u003c/head\u003e\r\n8:\u003cbody\u003e\r\n9:  \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\r\n11:  \u003cp\u003eSint dolor inventore, reiciendis nam delectus qui porro quidem.\u003c/p\u003e\r\n13:  \u003cfooter\u003e© 2016 Delicious Kiwi Party.\u003c/footer\u003e\r\n"
+    ],
+    [
+      0.000021,
+      "14:\u003c/body\u003e\r\n15:\u003c/html\u003e\r\n"
+    ],
+    [
+      0.000796,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000372,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.136023,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.612708,
+      "g"
+    ],
+    [
+      0.112614,
+      "i"
+    ],
+    [
+      0.078653,
+      "t"
+    ],
+    [
+      0.134812,
+      " "
+    ],
+    [
+      0.056445,
+      "l"
+    ],
+    [
+      0.158004,
+      "o"
+    ],
+    [
+      0.067009,
+      "g"
+    ],
+    [
+      0.078881,
+      " "
+    ],
+    [
+      0.134860,
+      "-"
+    ],
+    [
+      0.258610,
+      "L"
+    ],
+    [
+      0.225450,
+      " "
+    ],
+    [
+      0.235893,
+      "3"
+    ],
+    [
+      0.202350,
+      ","
+    ],
+    [
+      0.292629,
+      "7"
+    ],
+    [
+      0.349034,
+      ":"
+    ],
+    [
+      0.325887,
+      "i"
+    ],
+    [
+      0.067541,
+      "n"
+    ],
+    [
+      0.144779,
+      "dex.html"
+    ],
+    [
+      1.497715,
+      " "
+    ],
+    [
+      0.101165,
+      "-"
+    ],
+    [
+      0.180069,
+      "1"
+    ],
+    [
+      0.281280,
+      "\r\n"
+    ],
+    [
+      0.020025,
+      "\u001b[33mcommit beba6f3\u001b[m\r\n"
+    ],
+    [
+      0.000510,
+      "Author: Jean-Kevin Robichu \u003clolwut@n00bs.net\u003e\r\nDate:   Tue May 31 16:09:23 2016 +0200\r\n"
+    ],
+    [
+      0.000006,
+      "\r\n    copy(home): broken title\r\n\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[1;33mdiff --git a/index.html b/index.html\u001b[m\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[1;33m--- a/index.html\u001b[m\r\n\u001b[1;33m+++ b/index.html\u001b[m\r\n"
+    ],
+    [
+      0.000003,
+      "\u001b[1;35m@@ -3,5 +3,5 @@\u001b[m\r\n"
+    ],
+    [
+      0.000003,
+      " \u003chead\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000003,
+      "   \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[31m-  \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n\u001b[32m+  \u003ctitle\u003eKywy Party Git Playground\u003c/title\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000019,
+      "   \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\u001b[m\r\n \u003c/head\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000871,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000147,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.140228,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      2.000000,
+      "logout\r\n"
+    ]
+  ]
+}

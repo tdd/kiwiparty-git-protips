@@ -1,0 +1,550 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 24,
+  "duration": 26.989232,
+  "command": "/bin/bash -l",
+  "title": "Showcasing git add -p",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.929471,
+      "\u001b[?25h"
+    ],
+    [
+      0.000295,
+      "\u001b[0G"
+    ],
+    [
+      0.000633,
+      "\u001b[K\u001b[?25h\u001b[0G\u001b[K"
+    ],
+    [
+      0.914895,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.165282,
+      "\u001b[?1034h\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.206139,
+      "g"
+    ],
+    [
+      0.157249,
+      "i"
+    ],
+    [
+      0.123664,
+      "t"
+    ],
+    [
+      0.113026,
+      " "
+    ],
+    [
+      0.090172,
+      "s"
+    ],
+    [
+      0.100622,
+      "t"
+    ],
+    [
+      0.089930,
+      "\r\n"
+    ],
+    [
+      0.015678,
+      "On branch party\r\n"
+    ],
+    [
+      0.000029,
+      "Changes to be committed:\r\n  (use \"git reset HEAD \u003cfile\u003e...\" to unstage)\r\n"
+    ],
+    [
+      0.000004,
+      "\r\n"
+    ],
+    [
+      0.000018,
+      "\t\u001b[32mnew file:   kiwi.css\u001b[m\r\n"
+    ],
+    [
+      0.000004,
+      "\r\nChanges not staged for commit:\r\n"
+    ],
+    [
+      0.000086,
+      "  (use \"git add \u003cfile\u003e...\" to update what will be committed)\r\n  (use \"git checkout -- \u003cfile\u003e...\" to discard changes in working directory)\r\n\r\n\t\u001b[31mmodified:   index.html\u001b[m\r\n\r\n"
+    ],
+    [
+      0.161362,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000146,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.124998,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.384140,
+      "g"
+    ],
+    [
+      0.258575,
+      "i"
+    ],
+    [
+      0.101234,
+      "t"
+    ],
+    [
+      0.090111,
+      " "
+    ],
+    [
+      0.157741,
+      "d"
+    ],
+    [
+      0.123524,
+      "i"
+    ],
+    [
+      0.134784,
+      "f"
+    ],
+    [
+      0.135170,
+      "f"
+    ],
+    [
+      0.494885,
+      "\r\n"
+    ],
+    [
+      0.092958,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n\u001b[1;33mmodified: index.html\r\n\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000129,
+      "\u001b[1;35m@ index.html:6 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n"
+    ],
+    [
+      0.000036,
+      "\u003chead\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000196,
+      "  \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n  \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n\u001b[32m\u001b[m\u001b[32m  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\u001b[m\r\n\u003c/head\u003e\u001b[m\r\n\u003cbody\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000018,
+      "  \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000003,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000043,
+      "  \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[31m  \u003cfooter\u003e© 2016 Delicious Kiwi\u001b[7ms\u001b[27m\u003c/footer\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[32m\u001b[m\u001b[32m  \u003cfooter\u003e© 2016 Delicious Kiwi\u001b[7m Party.\u001b[27m\u003c/footer\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000048,
+      "\u003c/body\u003e\u001b[m\r\n\u003c/html\u003e\u001b[m\r\n"
+    ],
+    [
+      0.001843,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000143,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.133687,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.211070,
+      "g"
+    ],
+    [
+      0.089972,
+      "i"
+    ],
+    [
+      0.101173,
+      "t"
+    ],
+    [
+      0.112791,
+      " "
+    ],
+    [
+      0.078462,
+      "a"
+    ],
+    [
+      0.078886,
+      "d"
+    ],
+    [
+      0.146420,
+      "d"
+    ],
+    [
+      0.056250,
+      " "
+    ],
+    [
+      0.123709,
+      "-"
+    ],
+    [
+      0.123561,
+      "p"
+    ],
+    [
+      0.090150,
+      " "
+    ],
+    [
+      0.573478,
+      "i"
+    ],
+    [
+      0.190028,
+      "ndex.html"
+    ],
+    [
+      0.518824,
+      "\r\n"
+    ],
+    [
+      0.236786,
+      "\u001b[1;33mdiff --git a/index.html b/index.html\u001b[m\r\n\u001b[1;33mindex 8d338f0..4b673ae 100644\u001b[m\r\n\u001b[1;33m--- a/index.html\u001b[m\r\n\u001b[1;33m+++ b/index.html\u001b[m\r\n\u001b[1;35m@@ -3,12 +3,13 @@\u001b[m\r\n \u003chead\u003e\u001b[m\r\n   \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n   \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\u001b[m\r\n \u003c/head\u003e\u001b[m\r\n \u003cbody\u003e\u001b[m\r\n   \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n \u001b[m\r\n   \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n \u001b[m\r\n\u001b[31m-  \u003cfooter\u003e© 2016 Delicious Kiwis\u003c/footer\u003e\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m  \u003cfooter\u003e© 2016 Delicious Kiwi Party.\u003c/footer\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000031,
+      " \u003c/body\u003e\u001b[m\r\n \u003c/html\u003e\u001b[m\r\n\u001b[1;34mStage this hunk [y,n,q,a,d,/,s,e,?]? \u001b[m"
+    ],
+    [
+      1.637236,
+      "s"
+    ],
+    [
+      1.050942,
+      "\r\n"
+    ],
+    [
+      0.000319,
+      "\u001b[1mSplit into 2 hunks.\u001b[m\r\n"
+    ],
+    [
+      0.000138,
+      "\u001b[1;35m@@ -3,9 +3,10 @@\u001b[m\r\n \u003chead\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000011,
+      "   \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n   \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\u001b[m\r\n \u003c/head\u003e\u001b[m\r\n \u003cbody\u003e\u001b[m\r\n   \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n \u001b[m\r\n   \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n \u001b[m\r\n"
+    ],
+    [
+      0.000040,
+      "\u001b[1;34mStage this hunk [y,n,q,a,d,/,j,J,g,e,?]? \u001b[m"
+    ],
+    [
+      0.955774,
+      "y"
+    ],
+    [
+      0.506349,
+      "\r\n"
+    ],
+    [
+      0.000291,
+      "\u001b[1;35m@@ -6,9 +7,9 @@\u001b[m\r\n \u003c/head\u003e\u001b[m\r\n \u003cbody\u003e\u001b[m\r\n   \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n \u001b[m\r\n   \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000018,
+      " \u001b[m\r\n\u001b[31m-  \u003cfooter\u003e© 2016 Delicious Kiwis\u003c/footer\u003e\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m  \u003cfooter\u003e© 2016 Delicious Kiwi Party.\u003c/footer\u003e\u001b[m\r\n \u003c/body\u003e\u001b[m\r\n \u003c/html\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000026,
+      "\u001b[1;34mStage this hunk [y,n,q,a,d,/,K,g,e,?]? \u001b[m"
+    ],
+    [
+      0.764744,
+      "n"
+    ],
+    [
+      0.618453,
+      "\r\n"
+    ],
+    [
+      0.011981,
+      "\r\n"
+    ],
+    [
+      0.002227,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000092,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.144238,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.585281,
+      "g"
+    ],
+    [
+      0.089938,
+      "i"
+    ],
+    [
+      0.169190,
+      "t"
+    ],
+    [
+      0.067161,
+      " "
+    ],
+    [
+      1.878948,
+      "d"
+    ],
+    [
+      0.067302,
+      "i"
+    ],
+    [
+      0.168760,
+      "f"
+    ],
+    [
+      0.157701,
+      "f"
+    ],
+    [
+      0.044747,
+      " "
+    ],
+    [
+      0.146300,
+      "-"
+    ],
+    [
+      0.134972,
+      "-"
+    ],
+    [
+      0.090888,
+      "s"
+    ],
+    [
+      0.134320,
+      "t"
+    ],
+    [
+      0.168594,
+      "a"
+    ],
+    [
+      0.168985,
+      "g"
+    ],
+    [
+      0.044871,
+      "e"
+    ],
+    [
+      0.191122,
+      "d"
+    ],
+    [
+      0.146188,
+      " "
+    ],
+    [
+      0.079748,
+      "i"
+    ],
+    [
+      0.111931,
+      "n"
+    ],
+    [
+      0.080210,
+      "dex.html"
+    ],
+    [
+      0.403090,
+      "\r\n"
+    ],
+    [
+      0.098002,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000009,
+      "\u001b[1;33mmodified: index.html\r\n"
+    ],
+    [
+      0.000133,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000179,
+      "\u001b[1;35m@ index.html:6 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n\u003chead\u003e\u001b[m\r\n  \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000007,
+      "  \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000030,
+      "\u001b[32m\u001b[m\u001b[32m  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000017,
+      "\u003c/head\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000049,
+      "\u003cbody\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000005,
+      "  \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n"
+    ],
+    [
+      0.001783,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000164,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.139184,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      2.000000,
+      "g"
+    ],
+    [
+      0.112954,
+      "i"
+    ],
+    [
+      0.112337,
+      "t"
+    ],
+    [
+      0.089550,
+      " "
+    ],
+    [
+      0.101598,
+      "d"
+    ],
+    [
+      0.112887,
+      "i"
+    ],
+    [
+      0.111717,
+      "f"
+    ],
+    [
+      0.180032,
+      "f"
+    ],
+    [
+      0.348655,
+      "\r\n"
+    ],
+    [
+      0.095694,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000122,
+      "\u001b[1;33mmodified: index.html\r\n\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000129,
+      "\u001b[1;35m@ index.html:13 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n"
+    ],
+    [
+      0.000088,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000005,
+      "  \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000025,
+      "\u001b[31m  \u003cfooter\u003e© 2016 Delicious Kiwi\u001b[7ms\u001b[27m\u003c/footer\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000022,
+      "\u001b[32m\u001b[m\u001b[32m  \u003cfooter\u003e© 2016 Delicious Kiwi\u001b[7m Party.\u001b[27m\u003c/footer\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000019,
+      "\u003c/body\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000021,
+      "\u003c/html\u003e\u001b[m\r\n"
+    ],
+    [
+      0.002936,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000173,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.134734,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.487440,
+      "logout\r\n"
+    ]
+  ]
+}

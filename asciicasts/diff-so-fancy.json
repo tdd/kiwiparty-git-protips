@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 24,
+  "duration": 10.578029,
+  "command": "/bin/bash -l",
+  "title": "Showcasing git diff-so-fancy",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.889629,
+      "\u001b[?25h"
+    ],
+    [
+      0.000020,
+      "\u001b[0G\u001b[K\u001b[?25h"
+    ],
+    [
+      0.000023,
+      "\u001b[0G"
+    ],
+    [
+      0.000020,
+      "\u001b[K"
+    ],
+    [
+      0.756603,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000221,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.135951,
+      "\u001b[?1034h"
+    ],
+    [
+      0.000019,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.397845,
+      "g"
+    ],
+    [
+      0.000018,
+      "it"
+    ],
+    [
+      0.000047,
+      " -c"
+    ],
+    [
+      0.000005,
+      " "
+    ],
+    [
+      0.000020,
+      "p"
+    ],
+    [
+      0.000011,
+      "a"
+    ],
+    [
+      0.000014,
+      "g"
+    ],
+    [
+      0.000016,
+      "e"
+    ],
+    [
+      0.000013,
+      "r"
+    ],
+    [
+      0.000014,
+      "."
+    ],
+    [
+      0.000016,
+      "d"
+    ],
+    [
+      0.000015,
+      "i"
+    ],
+    [
+      0.000014,
+      "f"
+    ],
+    [
+      0.000014,
+      "f"
+    ],
+    [
+      0.000027,
+      "="
+    ],
+    [
+      0.000016,
+      "c"
+    ],
+    [
+      0.000013,
+      "a"
+    ],
+    [
+      0.000017,
+      "t"
+    ],
+    [
+      0.000014,
+      " "
+    ],
+    [
+      0.000017,
+      "d"
+    ],
+    [
+      0.000014,
+      "i"
+    ],
+    [
+      0.000016,
+      "f"
+    ],
+    [
+      0.000016,
+      "f"
+    ],
+    [
+      0.000014,
+      " "
+    ],
+    [
+      0.000016,
+      "-"
+    ],
+    [
+      0.000016,
+      "w"
+    ],
+    [
+      0.886867,
+      "\r\n"
+    ],
+    [
+      0.014268,
+      "\u001b[1;33mdiff --git i/index.html w/index.html\u001b[m\r\n\u001b[1;33mindex 8d338f0..cf568a5 100644\u001b[m\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[1;33m--- i/index.html\u001b[m\r\n\u001b[1;33m+++ w/index.html\u001b[m\r\n\u001b[1;35m@@ -2,10 +2,10 @@\u001b[m\r\n \u003chtml lang=\"fr\"\u003e\u001b[m\r\n   \u003chead\u003e\u001b[m\r\n     \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000025,
+      "\u001b[31m-  \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m    \u003ctitle\u003eKiwi Party Git Fest!\u003c/title\u003e\u001b[m\r\n   \u003c/head\u003e\u001b[m\r\n   \u003cbody\u003e\u001b[m\r\n\u001b[31m-  \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m    \u003ch1\u003eKiwi Party Git Fest!\u003c/h1\u003e\u001b[m\r\n \u001b[m\r\n     \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n \u001b[m\r\n"
+    ],
+    [
+      0.000773,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000111,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.119969,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.050536,
+      "g"
+    ],
+    [
+      0.096848,
+      "i"
+    ],
+    [
+      0.135078,
+      "t"
+    ],
+    [
+      0.101172,
+      " "
+    ],
+    [
+      0.101304,
+      "d"
+    ],
+    [
+      0.078827,
+      "i"
+    ],
+    [
+      0.123484,
+      "f"
+    ],
+    [
+      0.157559,
+      "f"
+    ],
+    [
+      0.044962,
+      " "
+    ],
+    [
+      0.161976,
+      "-"
+    ],
+    [
+      0.108054,
+      "w"
+    ],
+    [
+      2.000000,
+      "\r\n"
+    ],
+    [
+      0.088991,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000270,
+      "\u001b[1;33mmodified: index.html\r\n\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[1;35m@ index.html:5 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n"
+    ],
+    [
+      0.000048,
+      "\u003chtml lang=\"fr\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000047,
+      "  \u003chead\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000004,
+      "    \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000039,
+      "\u001b[31m  \u001b[7m\u003ctitle\u003eKiwi Party Git Playground\u001b[27m\u003c/title\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000053,
+      "\u001b[32m\u001b[m\u001b[32m  \u001b[7m  \u003ctitle\u003eKiwi Party Git Fest!\u001b[27m\u003c/title\u003e\u001b[m\r\n  \u003c/head\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000031,
+      "  \u003cbody\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[31m  \u001b[7m\u003ch1\u003eKiwi Party Git Playground\u001b[27m\u003c/h1\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[32m\u001b[m\u001b[32m  \u001b[7m  \u003ch1\u003eKiwi Party Git Fest!\u001b[27m\u003c/h1\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000056,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000024,
+      "    \u003cp\u003eLorem ipsum dolor sit amet, consectetur adipisicing elit.\u003c/p\u003e\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      0.001936,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000154,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.122541,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      2.000000,
+      "logout\r\n"
+    ]
+  ]
+}

@@ -1,0 +1,898 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 24,
+  "duration": 33.722524,
+  "command": "/bin/bash -l",
+  "title": "Showcasing git pull --rebase=preserve",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.765846,
+      "\u001b[?25h"
+    ],
+    [
+      0.000408,
+      "\u001b[0G"
+    ],
+    [
+      0.000031,
+      "\u001b[K"
+    ],
+    [
+      0.000217,
+      "\u001b[?25h\u001b[0G"
+    ],
+    [
+      0.000026,
+      "\u001b[K"
+    ],
+    [
+      0.487187,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000158,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.131186,
+      "\u001b[?1034h"
+    ],
+    [
+      0.000017,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.450496,
+      "g"
+    ],
+    [
+      0.100717,
+      "i"
+    ],
+    [
+      0.123767,
+      "t"
+    ],
+    [
+      0.079324,
+      " "
+    ],
+    [
+      0.056071,
+      "l"
+    ],
+    [
+      0.078293,
+      "g"
+    ],
+    [
+      0.067654,
+      " "
+    ],
+    [
+      0.618782,
+      "-"
+    ],
+    [
+      0.191503,
+      "2"
+    ],
+    [
+      0.192731,
+      "\r\n"
+    ],
+    [
+      0.020358,
+      "* \u001b[31m013d50b\u001b[m -\u001b[33m (\u001b[m\u001b[1;36mHEAD\u001b[m\u001b[33m -\u003e \u001b[m\u001b[1;32mparty\u001b[m\u001b[33m)\u001b[m\u001b[m copy(home): Git Fest, rather. \u001b[32m(Christophe Porteneuve 40 seconds ago)\u001b[m\r\n"
+    ],
+    [
+      0.000040,
+      "* \u001b[31m88b2713\u001b[m -\u001b[33m (\u001b[m\u001b[1;31morigin/party\u001b[m\u001b[33m)\u001b[m\u001b[m copy(home): different garbage \u001b[32m(Christophe Porteneuve 6 minutes ago)\u001b[m\r\n"
+    ],
+    [
+      0.000815,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000182,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.128380,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.613445,
+      "g"
+    ],
+    [
+      0.146426,
+      "i"
+    ],
+    [
+      0.123319,
+      "t"
+    ],
+    [
+      0.079040,
+      " "
+    ],
+    [
+      0.033883,
+      "p"
+    ],
+    [
+      0.112306,
+      "u"
+    ],
+    [
+      0.112621,
+      "s"
+    ],
+    [
+      0.090087,
+      "h"
+    ],
+    [
+      0.213288,
+      "\r\n"
+    ],
+    [
+      0.022713,
+      "To /tmp/strasbourg\r\n ! [rejected]        party -\u003e party"
+    ],
+    [
+      0.000009,
+      " (fetch first)\r\n"
+    ],
+    [
+      0.000004,
+      "error: failed to push some refs to '/tmp/strasbourg'\r\n"
+    ],
+    [
+      0.000020,
+      "hint: Updates were rejected because the remote contains work that you do\r\nhint: not have locally. This is usually caused by another repository pushing\r\nhint: to the same ref. You may want to first integrate the remote changes\r\n"
+    ],
+    [
+      0.000022,
+      "hint: (e.g., 'git pull ...') before pushing again.\r\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\r\n"
+    ],
+    [
+      0.000864,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000114,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.130774,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.633109,
+      "g"
+    ],
+    [
+      0.101257,
+      "i"
+    ],
+    [
+      0.112525,
+      "t"
+    ],
+    [
+      0.067560,
+      " "
+    ],
+    [
+      0.033657,
+      "p"
+    ],
+    [
+      0.090561,
+      "u"
+    ],
+    [
+      0.190915,
+      "l"
+    ],
+    [
+      0.146186,
+      "l"
+    ],
+    [
+      0.888512,
+      "\r\n"
+    ],
+    [
+      0.044738,
+      "remote: Counting objects: 7, done.\u001b[K\r\n"
+    ],
+    [
+      0.000320,
+      "remote: Compressing objects:  20% (1/5)   \u001b[K\r"
+    ],
+    [
+      0.000005,
+      "remote: Compressing objects:  40% (2/5)   \u001b[K\r"
+    ],
+    [
+      0.000113,
+      "remote: Compressing objects:  60% (3/5)   \u001b[K\rremote: Compressing objects:  80% (4/5)   \u001b[K\r"
+    ],
+    [
+      0.000090,
+      "remote: Compressing objects: 100% (5/5)   \u001b[K\r"
+    ],
+    [
+      0.000126,
+      "remote: Compressing objects: 100% (5/5), done.\u001b[K\r\n"
+    ],
+    [
+      0.000442,
+      "remote: Total 7 (delta 2), reused 0 (delta 0)\u001b[K\r\n"
+    ],
+    [
+      0.003941,
+      "Unpacking objects:  14% (1/7)   \r"
+    ],
+    [
+      0.000624,
+      "Unpacking objects:  28% (2/7)   \r"
+    ],
+    [
+      0.000520,
+      "Unpacking objects:  42% (3/7)   \r"
+    ],
+    [
+      0.000526,
+      "Unpacking objects:  57% (4/7)   \r"
+    ],
+    [
+      0.000377,
+      "Unpacking objects:  71% (5/7)   \r"
+    ],
+    [
+      0.000587,
+      "Unpacking objects:  85% (6/7)   \r"
+    ],
+    [
+      0.000625,
+      "Unpacking objects: 100% (7/7)   \r"
+    ],
+    [
+      0.000005,
+      "Unpacking objects: 100% (7/7), done.\r\n"
+    ],
+    [
+      0.006302,
+      "From /tmp/strasbourg\r\n   88b2713..6f272f9  party      -\u003e origin/party\r\n"
+    ],
+    [
+      0.018586,
+      "Merge made by the 'recursive' strategy.\r\n"
+    ],
+    [
+      0.005514,
+      " .nojekyll | 0\r\n README.md | 1 \u001b[32m+\u001b[m\r\n"
+    ],
+    [
+      0.000010,
+      " 2 files changed, 1 insertion(+)\r\n create mode 100644 .nojekyll\r\n create mode 100644 README.md\r\n"
+    ],
+    [
+      0.001341,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000189,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.129586,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+2)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.248025,
+      "g"
+    ],
+    [
+      0.090068,
+      "i"
+    ],
+    [
+      0.123768,
+      "t"
+    ],
+    [
+      0.078628,
+      " "
+    ],
+    [
+      0.236503,
+      "l"
+    ],
+    [
+      0.146276,
+      "g"
+    ],
+    [
+      0.146412,
+      " "
+    ],
+    [
+      0.236101,
+      "-"
+    ],
+    [
+      0.911073,
+      "5"
+    ],
+    [
+      0.191264,
+      "\r\n"
+    ],
+    [
+      0.015515,
+      "*   \u001b[31mdd151dc\u001b[m -\u001b[33m (\u001b[m\u001b[1;36mHEAD\u001b[m\u001b[33m -\u003e \u001b[m\u001b[1;32mparty\u001b[m\u001b[33m)\u001b[m\u001b[m Merge branch 'party' of /tmp/strasbourg into party \u001b[32m(Christophe Porteneuve 3 seconds ago)\u001b[m\r\n\u001b[31m|\u001b[m\u001b[32m\\\u001b[m  \r\n"
+    ],
+    [
+      0.000125,
+      "\u001b[31m|\u001b[m * \u001b[31m6f272f9\u001b[m -\u001b[33m (\u001b[m\u001b[1;31morigin/party\u001b[m\u001b[33m)\u001b[m\u001b[m feat(delight): Add more unicorns \u001b[32m(Christophe Porteneuve 76 seconds ago)\u001b[m\r\n\u001b[31m|\u001b[m * \u001b[31m0392bb6\u001b[m -\u001b[m infra(gh-pages): Avoid Jekyll processing \u001b[32m(Christophe Porteneuve 2 minutes ago)\u001b[m\r\n"
+    ],
+    [
+      0.000037,
+      "\u001b[31m|\u001b[m * \u001b[31m81fd313\u001b[m -\u001b[m docs(readme): Added skeleton README \u001b[32m(Christophe Porteneuve 2 minutes ago)\u001b[m\r\n"
+    ],
+    [
+      0.000059,
+      "* \u001b[32m|\u001b[m \u001b[31m013d50b\u001b[m -\u001b[m copy(home): Git Fest, rather. \u001b[32m(Christophe Porteneuve 48 seconds ago)\u001b[m\r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[32m|\u001b[m\u001b[32m/\u001b[m  \r\n"
+    ],
+    [
+      0.001051,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000107,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.125849,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+2)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      2.000000,
+      "g"
+    ],
+    [
+      0.101080,
+      "i"
+    ],
+    [
+      0.112402,
+      "t"
+    ],
+    [
+      0.078907,
+      " "
+    ],
+    [
+      0.090344,
+      "r"
+    ],
+    [
+      0.044593,
+      "e"
+    ],
+    [
+      0.202765,
+      "s"
+    ],
+    [
+      0.179804,
+      "e"
+    ],
+    [
+      0.079012,
+      "t"
+    ],
+    [
+      0.067338,
+      " "
+    ],
+    [
+      0.292407,
+      "-"
+    ],
+    [
+      0.123716,
+      "-"
+    ],
+    [
+      0.180043,
+      "m"
+    ],
+    [
+      0.090175,
+      "e"
+    ],
+    [
+      0.090470,
+      "r"
+    ],
+    [
+      0.179399,
+      "g"
+    ],
+    [
+      0.044956,
+      "e"
+    ],
+    [
+      0.112561,
+      " "
+    ],
+    [
+      0.258882,
+      "O"
+    ],
+    [
+      0.089730,
+      "R"
+    ],
+    [
+      0.078876,
+      "I"
+    ],
+    [
+      0.156601,
+      "G_HEAD "
+    ],
+    [
+      0.338625,
+      "\r\n"
+    ],
+    [
+      0.019698,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000136,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.123613,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1-3)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.667471,
+      "g"
+    ],
+    [
+      0.078977,
+      "i"
+    ],
+    [
+      0.112422,
+      "t"
+    ],
+    [
+      0.090097,
+      " "
+    ],
+    [
+      0.179886,
+      "c"
+    ],
+    [
+      0.078894,
+      "o"
+    ],
+    [
+      0.056015,
+      "n"
+    ],
+    [
+      0.078836,
+      "f"
+    ],
+    [
+      0.112654,
+      "i"
+    ],
+    [
+      0.112195,
+      "g"
+    ],
+    [
+      0.067864,
+      " "
+    ],
+    [
+      0.089898,
+      "-"
+    ],
+    [
+      0.124089,
+      "-"
+    ],
+    [
+      0.100829,
+      "g"
+    ],
+    [
+      0.101263,
+      "l"
+    ],
+    [
+      0.157314,
+      "o"
+    ],
+    [
+      0.090073,
+      "b"
+    ],
+    [
+      0.045177,
+      "a"
+    ],
+    [
+      0.168500,
+      "l"
+    ],
+    [
+      0.123715,
+      " "
+    ],
+    [
+      0.101232,
+      "p"
+    ],
+    [
+      0.079188,
+      "u"
+    ],
+    [
+      0.202274,
+      "l"
+    ],
+    [
+      0.135225,
+      "l"
+    ],
+    [
+      0.202240,
+      "."
+    ],
+    [
+      0.078692,
+      "r"
+    ],
+    [
+      0.045307,
+      "e"
+    ],
+    [
+      0.123803,
+      "b"
+    ],
+    [
+      0.089785,
+      "a"
+    ],
+    [
+      0.078672,
+      "s"
+    ],
+    [
+      0.157788,
+      "e"
+    ],
+    [
+      0.078434,
+      " "
+    ],
+    [
+      0.078790,
+      "="
+    ],
+    [
+      0.123747,
+      " "
+    ],
+    [
+      0.101180,
+      "p"
+    ],
+    [
+      0.056248,
+      "r"
+    ],
+    [
+      0.067519,
+      "e"
+    ],
+    [
+      0.168986,
+      "s"
+    ],
+    [
+      0.146097,
+      "e"
+    ],
+    [
+      0.056704,
+      "r"
+    ],
+    [
+      0.202057,
+      "v"
+    ],
+    [
+      0.078687,
+      "e"
+    ],
+    [
+      0.348805,
+      "\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.360305,
+      "\u0008\u001b[1Ppreserve\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.168917,
+      "\u0008\u001b[1Ppreserve\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.213143,
+      "\r\n"
+    ],
+    [
+      0.023297,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000133,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.115355,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1-3)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.705064,
+      "g"
+    ],
+    [
+      0.090035,
+      "i"
+    ],
+    [
+      0.134954,
+      "t"
+    ],
+    [
+      0.067517,
+      " "
+    ],
+    [
+      0.067798,
+      "p"
+    ],
+    [
+      0.112336,
+      "u"
+    ],
+    [
+      0.202511,
+      "l"
+    ],
+    [
+      0.146238,
+      "l"
+    ],
+    [
+      0.483483,
+      "\r\n"
+    ],
+    [
+      0.354829,
+      "Rebasing (1/1)\r"
+    ],
+    [
+      0.586922,
+      "Successfully rebased and updated refs/heads/party.\r\n"
+    ],
+    [
+      0.008245,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000219,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.121937,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.054398,
+      "g"
+    ],
+    [
+      0.078762,
+      "i"
+    ],
+    [
+      0.135052,
+      "t"
+    ],
+    [
+      0.056396,
+      " "
+    ],
+    [
+      0.044738,
+      "l"
+    ],
+    [
+      0.112790,
+      "g"
+    ],
+    [
+      0.055946,
+      " "
+    ],
+    [
+      0.360115,
+      "-"
+    ],
+    [
+      0.382562,
+      "5"
+    ],
+    [
+      0.146233,
+      "\r\n"
+    ],
+    [
+      0.025067,
+      "* \u001b[31m045a171\u001b[m -\u001b[33m (\u001b[m\u001b[1;36mHEAD\u001b[m\u001b[33m -\u003e \u001b[m\u001b[1;32mparty\u001b[m\u001b[33m)\u001b[m\u001b[m copy(home): Git Fest, rather. \u001b[32m(Christophe Porteneuve 72 seconds ago)\u001b[m\r\n"
+    ],
+    [
+      0.000111,
+      "* \u001b[31m6f272f9\u001b[m -\u001b[33m (\u001b[m\u001b[1;31morigin/party\u001b[m\u001b[33m)\u001b[m\u001b[m feat(delight): Add more unicorns \u001b[32m(Christophe Porteneuve 2 minutes ago)\u001b[m\r\n* \u001b[31m0392bb6\u001b[m -\u001b[m infra(gh-pages): Avoid Jekyll processing \u001b[32m(Christophe Porteneuve 2 minutes ago)\u001b[m\r\n"
+    ],
+    [
+      0.000299,
+      "* \u001b[31m81fd313\u001b[m -\u001b[m docs(readme): Added skeleton README \u001b[32m(Christophe Porteneuve 2 minutes ago)\u001b[m\r\n* \u001b[31m88b2713\u001b[m -\u001b[m copy(home): different garbage \u001b[32m(Christophe Porteneuve 7 minutes ago)\u001b[m\r\n"
+    ],
+    [
+      0.000854,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000165,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.150326,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.375403,
+      "g"
+    ],
+    [
+      0.090320,
+      "i"
+    ],
+    [
+      0.089683,
+      "t"
+    ],
+    [
+      0.056254,
+      " "
+    ],
+    [
+      0.034090,
+      "p"
+    ],
+    [
+      0.112244,
+      "u"
+    ],
+    [
+      0.101442,
+      "s"
+    ],
+    [
+      0.089930,
+      "h"
+    ],
+    [
+      0.179679,
+      "\r\n"
+    ],
+    [
+      0.029760,
+      "Counting objects: 3, done.\r\n"
+    ],
+    [
+      0.000296,
+      "Delta compression using up to 4 threads.\r\n"
+    ],
+    [
+      0.000062,
+      "Compressing objects:  33% (1/3)   \r"
+    ],
+    [
+      0.000122,
+      "Compressing objects:  66% (2/3)   \r"
+    ],
+    [
+      0.000085,
+      "Compressing objects: 100% (3/3)   \r"
+    ],
+    [
+      0.000101,
+      "Compressing objects: 100% (3/3), done.\r\n"
+    ],
+    [
+      0.000298,
+      "Writing objects:  33% (1/3)   \r"
+    ],
+    [
+      0.000048,
+      "Writing objects:  66% (2/3)   \r"
+    ],
+    [
+      0.000045,
+      "Writing objects: 100% (3/3)   \r"
+    ],
+    [
+      0.000169,
+      "Writing objects: 100% (3/3), 327 bytes | 0 bytes/s, done.\r\nTotal 3 (delta 2), reused 0 (delta 0)\r\n"
+    ],
+    [
+      0.018116,
+      "To /tmp/strasbourg\r\n"
+    ],
+    [
+      0.000099,
+      "   6f272f9..045a171  party -\u003e party"
+    ],
+    [
+      0.000005,
+      "\r\n"
+    ],
+    [
+      0.003583,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000242,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.126260,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u=)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.069621,
+      "logout\r\n"
+    ]
+  ]
+}

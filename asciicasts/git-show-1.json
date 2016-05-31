@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 24,
+  "duration": 12.534989,
+  "command": "/bin/bash -l",
+  "title": "Showcasing git show :1:path",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.763205,
+      "\u001b[?25h"
+    ],
+    [
+      0.000388,
+      "\u001b[0G"
+    ],
+    [
+      0.000027,
+      "\u001b[K"
+    ],
+    [
+      0.000123,
+      "\u001b[?25h"
+    ],
+    [
+      0.000028,
+      "\u001b[0G"
+    ],
+    [
+      0.000161,
+      "\u001b[K"
+    ],
+    [
+      0.511341,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000103,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.130243,
+      "\u001b[?1034h"
+    ],
+    [
+      0.000027,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party u+1-1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.429798,
+      "g"
+    ],
+    [
+      0.078321,
+      "i"
+    ],
+    [
+      0.135125,
+      "t"
+    ],
+    [
+      0.067293,
+      " "
+    ],
+    [
+      0.034006,
+      "p"
+    ],
+    [
+      0.090259,
+      "u"
+    ],
+    [
+      0.191058,
+      "l"
+    ],
+    [
+      0.146126,
+      "l"
+    ],
+    [
+      0.168686,
+      "\r\n"
+    ],
+    [
+      0.376997,
+      "Rebasing (1/1)\r"
+    ],
+    [
+      0.061937,
+      "error: could not apply ff1d770... copy(legal): Waiving all rights cuz we’re sweet.\r\n\r\nWhen you have resolved this problem, run \"git rebase --continue\".\r\nIf you prefer to skip this patch, run \"git rebase --skip\" instead.\r\nTo check out the original branch and stop rebasing, run \"git rebase --abort\".\r\n"
+    ],
+    [
+      0.032339,
+      "Could not pick ff1d77049d236ddbe29ef476c00f257e68fd79b2\r\n"
+    ],
+    [
+      0.002038,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000145,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.121256,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+|REBASE-i 1/1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.384142,
+      "g"
+    ],
+    [
+      0.112435,
+      "i"
+    ],
+    [
+      0.089738,
+      "t"
+    ],
+    [
+      0.090296,
+      " "
+    ],
+    [
+      0.078680,
+      "s"
+    ],
+    [
+      0.078618,
+      "t"
+    ],
+    [
+      0.078647,
+      "\r\n"
+    ],
+    [
+      0.019557,
+      "\u001b[31minteractive rebase in progress; onto \u001b[m89cd677\r\n"
+    ],
+    [
+      0.000115,
+      "Last command done (1 command done):\r\n"
+    ],
+    [
+      0.000025,
+      "   pick ff1d770 copy(legal): Waiving all rights cuz we’re sweet.\r\nNo commands remaining.\r\nYou are currently rebasing branch 'party' on '89cd677'.\r\n  (fix conflicts and then run \"git rebase --continue\")\r\n  (use \"git rebase --skip\" to skip this patch)\r\n  (use \"git rebase --abort\" to check out the original branch)\r\n\r\nUnmerged paths:\r\n  (use \"git reset HEAD \u003cfile\u003e...\" to unstage)\r\n  (use \"git add \u003cfile\u003e...\" to mark resolution)\r\n"
+    ],
+    [
+      0.000045,
+      "\r\n\t\u001b[31mboth modified:   index.html\u001b[m\r\n\r\n"
+    ],
+    [
+      0.145139,
+      "no changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n"
+    ],
+    [
+      0.000930,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000190,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.134618,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+|REBASE-i 1/1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.172092,
+      "g"
+    ],
+    [
+      0.112475,
+      "i"
+    ],
+    [
+      0.101499,
+      "t"
+    ],
+    [
+      0.112246,
+      " "
+    ],
+    [
+      0.067634,
+      "d"
+    ],
+    [
+      0.123663,
+      "i"
+    ],
+    [
+      0.089988,
+      "f"
+    ],
+    [
+      0.146207,
+      "f"
+    ],
+    [
+      0.123552,
+      "\r\n"
+    ],
+    [
+      0.093371,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000277,
+      "\u001b[1;33mmodified: index.html\r\n\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n\u001b[1;35m@ index.html:13 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000025,
+      "  \u003cp\u003eSint dolor inventore, reiciendis nam delectus qui porro quidem.\u003c/p\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000046,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[32m\u003c\u003c\u003c\u003c\u003c\u003c\u003c HEAD\u001b[m\r\n"
+    ],
+    [
+      0.000034,
+      "\u001b[32m  \u003cfooter\u003e© 1977–2016 Delicious Kiwi Party.\u003c/footer\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[32m||||||| parent of ff1d770... copy(legal): Waiving all rights cuz we’re sweet.\u001b[m\r\n"
+    ],
+    [
+      0.000058,
+      "\u001b[32m  \u003cfooter\u003e© 2016 Delicious Kiwi Party.\u003c/footer\u003e\u001b[m\r\n\u001b[32m=======\u001b[m\r\n"
+    ],
+    [
+      0.000021,
+      "\u001b[32m  \u003cfooter\u003e© 2016 Delicious Kiwi Party.  All rights waived anyway.\u003c/footer\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[32m\u003e\u003e\u003e\u003e\u003e\u003e\u003e ff1d770... copy(legal): Waiving all rights cuz we’re sweet.\u001b[m\r\n"
+    ],
+    [
+      0.000021,
+      "\u003c/body\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000031,
+      "\u003c/html\u003e\u001b[m\r\n"
+    ],
+    [
+      0.001993,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000218,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.133920,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+|REBASE-i 1/1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.626260,
+      "g"
+    ],
+    [
+      0.044997,
+      "i"
+    ],
+    [
+      0.146516,
+      "t"
+    ],
+    [
+      0.078590,
+      " "
+    ],
+    [
+      0.112437,
+      "s"
+    ],
+    [
+      0.056471,
+      "h"
+    ],
+    [
+      0.067273,
+      "o"
+    ],
+    [
+      0.090053,
+      "w"
+    ],
+    [
+      0.067558,
+      " "
+    ],
+    [
+      0.146175,
+      ":"
+    ],
+    [
+      0.169152,
+      "1"
+    ],
+    [
+      0.134603,
+      ":"
+    ],
+    [
+      0.191197,
+      "i"
+    ],
+    [
+      0.056279,
+      "n"
+    ],
+    [
+      0.094393,
+      "dex.html"
+    ],
+    [
+      1.885604,
+      "\r\n"
+    ],
+    [
+      0.099267,
+      "\u003c!doctype html\u003e\r\n"
+    ],
+    [
+      0.000009,
+      "\u003chtml lang=\"fr\"\u003e\r\n"
+    ],
+    [
+      0.000173,
+      "\u003chead\u003e\r\n  \u003cmeta charset=\"utf-8\"\u003e\r\n  \u003ctitle\u003eKywy Party Git Fest!\u003c/title\u003e\r\n  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\r\n\u003c/head\u003e\r\n\u003cbody\u003e\r\n  \u003ch1\u003eKiwi Party Git Fest!\u003c/h1\u003e\r\n\r\n"
+    ],
+    [
+      0.000023,
+      "  \u003cp\u003eSint dolor inventore, reiciendis nam delectus qui porro quidem.\u003c/p\u003e\r\n"
+    ],
+    [
+      0.000013,
+      "\r\n"
+    ],
+    [
+      0.000022,
+      "  \u003cfooter\u003e© 2016 Delicious Kiwi Party.\u003c/footer\u003e\r\n"
+    ],
+    [
+      0.000004,
+      "\u003c/body\u003e\r\n"
+    ],
+    [
+      0.000051,
+      "\u003c/html\u003e\r\n"
+    ],
+    [
+      0.001970,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000118,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.128564,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+|REBASE-i 1/1)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.502468,
+      "logout\r\n"
+    ]
+  ]
+}

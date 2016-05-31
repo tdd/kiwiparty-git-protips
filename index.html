@@ -23,6 +23,8 @@
     <!-- Code syntax highlighting -->
     <link rel="stylesheet" href="lib/css/prism.css">
 
+    <link rel="stylesheet" href="lib/css/asciinema-player.css">
+
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
@@ -66,7 +68,7 @@
 				<section id="whoami">
 					<h2>Tékitoa</h2>
 
-					<pre><code data-trim class="javascript">
+					<pre><code data-trim class="language-js">
 const christophe = {
   age: 38.58042436687201,
   family: { wife: 'Élodie', son: 'Maxence' },
@@ -95,8 +97,7 @@ const christophe = {
         <section id="diff-w">
           <h2>diff -w</h2>
 
-          <p>FIXME</p>
-
+          <div class="asciinema" data-file="asciicasts/git-diff-w.json"></div>
         </section>
 
         <section id="diff-so-fancy">
@@ -117,64 +118,70 @@ git config --global pager.show diff-so-fancy
           </code></pre>
         </section>
 
+        <section id="diff-so-fancy-cast">
+          <h2>Un diff personnalisé</h2>
+
+          <div class="asciinema" data-file="asciicasts/diff-so-fancy.json"></div>
+        </section>
+
         <section id="add-n">
           <h2>add -N</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-add-n.json"></div>
         </section>
 
         <section id="add-p">
           <h2>add -p</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-add-p.json"></div>
         </section>
 
         <section id="show-stage">
           <h2>show :0:path</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-show-0.json"></div>
         </section>
 
         <section id="show-commit">
           <h2>show commit</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-show-commit.json"></div>
         </section>
 
         <section id="lg-s">
           <h2>log -S</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-log-s.json"></div>
         </section>
 
         <section id="lg-l">
           <h2>log -L</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-log-l.json"></div>
         </section>
 
         <section id="pull-rebase-preserve">
           <h2>pull.rebase = preserve</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-pull-rebase-preserve.json"></div>
         </section>
 
         <section id="checkout-conflict">
           <h2>checkout --conflict=style</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-checkout-conflict.json"></div>
         </section>
 
         <section id="show-merge-base">
           <h2>show :1:path</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-show-1.json"></div>
         </section>
 
         <section id="rerere">
           <h2>rerere</h2>
 
-          <p>FIXME</p>
+          <div class="asciinema" data-file="asciicasts/git-rerere.json"></div>
         </section>
 
         <section>
@@ -183,12 +190,14 @@ git config --global pager.show diff-so-fancy
           <br>
           <p>Christophe Porteneuve</p>
           <p><a href="https://twitter.com/porteneuve">@porteneuve</a></p>
-          <p><a href="http://www.git-attitude.fr/archives/">Les articles de fond qui vont bien</a></p>
+          <p><a href="http://www.git-attitude.fr/categories/didacticiels/">Les articles de fond qui vont bien</a></p>
           <p><a href="http://www.git-attitude.fr/git-total/">La formation qui tue tout</a></p>
 
           <p class="breathing">
-            Les slides sont sur <a href="http://bit.ly/devoxx-git">bit.ly/devoxx-git</a><br/>
+            Les slides sont sur <a href="http://bit.ly/kiwiparty-git">bit.ly/kiwiparty-git</a><br/>
           </p>
+
+          <footer>Animations copie-collables grâce à <a href="https://asciinema.org/">Asciinema</a>.</footer>
         </section>
 
 			</div>
@@ -196,6 +205,7 @@ git config --global pager.show diff-so-fancy
 
 		<script src="lib/js/head.min.js"></script>
     <script src="plugin/highlight/prism.js"></script>
+    <script src="lib/js/asciinema-player.js"></script>
 		<script src="js/reveal.js"></script>
 
 		<script>
@@ -229,5 +239,23 @@ git config --global pager.show diff-so-fancy
 
 		</script>
 
+    <script>
+      (function() {
+        var players = {}
+        function initSlideAsciicast (event) {
+          var asciicast = event.currentSlide.querySelector('.asciinema')
+          var player = players[event.currentSlide.id]
+          if (!asciicast || player) return
+
+          var jsonURL = asciicast.getAttribute('data-file')
+          player = asciinema.player.js.CreatePlayer(asciicast, jsonURL, {
+            startAt: 2, speed: 0.75, autoPlay: true, loop: true,
+            theme: 'monokai', fontSize: 'medium'
+          })
+        }
+        Reveal.addEventListener('ready', initSlideAsciicast)
+        Reveal.addEventListener('slidechanged', initSlideAsciicast)
+      })()
+    </script>
 	</body>
 </html>

@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 24,
+  "duration": 18.080897,
+  "command": "/bin/bash -l",
+  "title": "Showcasing git add -N",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.883441,
+      "\u001b[?25h"
+    ],
+    [
+      0.000019,
+      "\u001b[0G\u001b[K\u001b[?25h\u001b[0G\u001b[K"
+    ],
+    [
+      0.564090,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000177,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.123942,
+      "\u001b[?1034h"
+    ],
+    [
+      0.000022,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *%)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.895853,
+      "g"
+    ],
+    [
+      0.145975,
+      "i"
+    ],
+    [
+      0.112284,
+      "t"
+    ],
+    [
+      0.101592,
+      " "
+    ],
+    [
+      0.281118,
+      "s"
+    ],
+    [
+      0.168525,
+      "t"
+    ],
+    [
+      0.216597,
+      "\r\n"
+    ],
+    [
+      0.015741,
+      "On branch party\r\n"
+    ],
+    [
+      0.000100,
+      "Changes not staged for commit:\r\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\r\n  (use \"git checkout -- \u003cfile\u003e...\" to discard changes in working directory)\r\n\r\n\t\u001b[31mmodified:   index.html\u001b[m\r\n\r\n"
+    ],
+    [
+      0.145754,
+      "Untracked files:\r\n  (use \"git add \u003cfile\u003e...\" to include in what will be committed)\r\n"
+    ],
+    [
+      0.000010,
+      "\r\n\t\u001b[31mkiwi.css\u001b[m\r\n\r\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n"
+    ],
+    [
+      0.000970,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000143,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.120278,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *%)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.861965,
+      "g"
+    ],
+    [
+      0.123538,
+      "i"
+    ],
+    [
+      0.101269,
+      "t"
+    ],
+    [
+      0.079211,
+      " "
+    ],
+    [
+      0.100743,
+      "d"
+    ],
+    [
+      0.123757,
+      "i"
+    ],
+    [
+      0.101270,
+      "f"
+    ],
+    [
+      0.157577,
+      "f"
+    ],
+    [
+      0.146022,
+      "\r\n"
+    ],
+    [
+      0.088273,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000282,
+      "\u001b[1;33mmodified: index.html\r\n\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n\u001b[1;35m@ index.html:6 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n"
+    ],
+    [
+      0.000007,
+      "\u003chead\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000038,
+      "  \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000030,
+      "  \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000076,
+      "\u001b[32m\u001b[m\u001b[32m  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000018,
+      "\u003c/head\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000047,
+      "\u003cbody\u003e\u001b[m\r\n  \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n"
+    ],
+    [
+      0.002113,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000124,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.131682,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *%)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.632810,
+      "g"
+    ],
+    [
+      0.213962,
+      "i"
+    ],
+    [
+      0.089746,
+      "t"
+    ],
+    [
+      0.168501,
+      " "
+    ],
+    [
+      0.236229,
+      "a"
+    ],
+    [
+      0.112462,
+      "d"
+    ],
+    [
+      0.179990,
+      "d"
+    ],
+    [
+      0.053116,
+      " "
+    ],
+    [
+      0.138487,
+      "-"
+    ],
+    [
+      0.337217,
+      "N"
+    ],
+    [
+      0.258795,
+      " "
+    ],
+    [
+      0.653861,
+      "\u0007"
+    ],
+    [
+      1.236457,
+      "k"
+    ],
+    [
+      0.176565,
+      "iwi.css"
+    ],
+    [
+      0.329265,
+      "\r\n"
+    ],
+    [
+      0.017258,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000114,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.130055,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      1.798874,
+      "g"
+    ],
+    [
+      0.157581,
+      "i"
+    ],
+    [
+      0.101053,
+      "t"
+    ],
+    [
+      0.090102,
+      " "
+    ],
+    [
+      0.112398,
+      "s"
+    ],
+    [
+      0.101431,
+      "t"
+    ],
+    [
+      0.438567,
+      "\r\n"
+    ],
+    [
+      0.016723,
+      "On branch party\r\n"
+    ],
+    [
+      0.000039,
+      "Changes to be committed:\r\n  (use \"git reset HEAD \u003cfile\u003e...\" to unstage)\r\n\r\n"
+    ],
+    [
+      0.000016,
+      "\t\u001b[32mnew file:   kiwi.css\u001b[m\r\n"
+    ],
+    [
+      0.000006,
+      "\r\nChanges not staged for commit:\r\n"
+    ],
+    [
+      0.000006,
+      "  (use \"git add \u003cfile\u003e...\" to update what will be committed)\r\n  (use \"git checkout -- \u003cfile\u003e...\" to discard changes in working directory)\r\n"
+    ],
+    [
+      0.000003,
+      "\r\n"
+    ],
+    [
+      0.000009,
+      "\t\u001b[31mmodified:   index.html\u001b[m\r\n"
+    ],
+    [
+      0.000049,
+      "\t\u001b[31mmodified:   kiwi.css\u001b[m\r\n\r\n"
+    ],
+    [
+      0.157584,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000302,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.122394,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      0.153137,
+      "g"
+    ],
+    [
+      0.112406,
+      "i"
+    ],
+    [
+      0.089865,
+      "t"
+    ],
+    [
+      0.090087,
+      " "
+    ],
+    [
+      0.090190,
+      "d"
+    ],
+    [
+      0.095597,
+      "i"
+    ],
+    [
+      0.118199,
+      "f"
+    ],
+    [
+      0.146252,
+      "f"
+    ],
+    [
+      0.112173,
+      "\r\n"
+    ],
+    [
+      0.087769,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n\u001b[1;33mmodified: index.html\r\n\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000015,
+      "\u001b[1;35m@ index.html:6 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n"
+    ],
+    [
+      0.000127,
+      "\u003chead\u003e\u001b[m\r\n  \u003cmeta charset=\"utf-8\"\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000182,
+      "  \u003ctitle\u003eKiwi Party Git Playground\u003c/title\u003e\u001b[m\r\n\u001b[32m\u001b[m\u001b[32m  \u003clink rel=\"stylesheet\" href=\"kiwi.css\"\u003e\u001b[m\r\n\u003c/head\u003e\u001b[m\r\n\u003cbody\u003e\u001b[m\r\n  \u003ch1\u003eKiwi Party Git Playground\u003c/h1\u003e\u001b[m\r\n"
+    ],
+    [
+      0.000222,
+      "\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[1;33mmodified: kiwi.css\r\n\u001b[1;33m────────────────────────────────────────────────────────────────────────────────────────────────────\r\n"
+    ],
+    [
+      0.000188,
+      "\u001b[1;35m@ kiwi.css:2 @\u001b[1m\u001b[38;5;146m\u001b[0m\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[32m\u001b[m\u001b[32mbody {\u001b[m\r\n\u001b[32m\u001b[m\u001b[32m  font-size: 16px;\u001b[m\r\n\u001b[32m\u001b[m\u001b[32m  line-height: 1.4em;\u001b[m\r\n"
+    ],
+    [
+      0.000165,
+      "\u001b[32m\u001b[m\u001b[32m  font-family: Georgia, Garamond, serif;\u001b[m\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[32m\u001b[m\u001b[32m}\u001b[m\r\n"
+    ],
+    [
+      0.002203,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.000241,
+      "\u001b]7;file://CodeWizard.local/Users/tdd/Desktop/Conferences%20et%20Articles/Kiwiparty%202016/kiwi\u0007"
+    ],
+    [
+      0.124369,
+      "\u001b[0;36mtdd\u001b[0m in \u001b[0;32mkiwi\u001b[1;33m (party *+)\u001b[0;37m $\u001b[0m "
+    ],
+    [
+      2.000000,
+      "logout\r\n"
+    ]
+  ]
+}
