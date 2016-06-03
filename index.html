@@ -249,7 +249,7 @@ git config --global pager.show diff-so-fancy
 
           var jsonURL = asciicast.getAttribute('data-file')
           player = asciinema.player.js.CreatePlayer(asciicast, jsonURL, {
-            startAt: 2, speed: 0.5, autoPlay: true, loop: true,
+            startAt: 2, speed: 1, autoPlay: true, loop: true,
             theme: (window.location.search || '').indexOf('light') > 0 ? 'solarized-light' : 'monokai',
             fontSize: 'medium'
           })
